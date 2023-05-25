@@ -5,9 +5,9 @@ y [ElectricInstrumentFactory](factory/ElectricInstrumentFactory.java)) implement
 pianos.
 
 Cada producto concreto ([AcousticGuitar](AcousticGuitar.java), [ElectricGuitar](ElectricGuitar.java), [GrandPiano](GrandPiano.java), [DigitalPiano](DigitalPiano.java))
-implementa la interfaz correspondiente ([Guitar](Guitar.java) o [Piano](Piano.java)) y proporciona su propia implementación del método play().
+implementa la interfaz correspondiente ([Guitar](Guitar.java) o [Piano](Piano.java)) y proporciona su propia implementación del método `play()`.
 
-En el ejemplo de uso en la clase Main, se crean dos fábricas diferentes (`AcousticInstrumentFactory` y
+En el ejemplo de uso en la clase [AbstractFactory](AbstractFactory.java), se crean dos fábricas diferentes (`AcousticInstrumentFactory` y
 `ElectricInstrumentFactory`) y se utilizan para crear diferentes tipos de guitarras y pianos. Luego, se llama al método 
 `play()` en cada instrumento, lo que produce la salida correspondiente.
 

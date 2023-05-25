@@ -1,6 +1,7 @@
 package tkode.pattern;
 
 import tkode.pattern.creational.abstract_factory.AbstractFactory;
+import tkode.pattern.creational.builder.Builder;
 import tkode.pattern.creational.factory_method.FactoryMethod;
 import tkode.pattern.creational.singleton.Singleton;
 
@@ -14,5 +15,8 @@ public class Main {
         
         // Uso del patrón Abstract Factory
         AbstractFactory.example();
+
+        // Uso del patrón Abstract Factory
+        Builder.example();
     }
 }
