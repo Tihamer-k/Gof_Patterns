@@ -6,6 +6,7 @@ import tkode.pattern.creational.factory_method.FactoryMethod;
 import tkode.pattern.creational.prototype.Prototype;
 import tkode.pattern.creational.singleton.Singleton;
 import tkode.pattern.structural.adapter.Adapter;
+import tkode.pattern.structural.bridge.Bridge;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -26,5 +27,8 @@ public class Main {
         
         // Uso del patrón Adapter
         Adapter.example();
+
+        // Uso del patrón Bridge
+        Bridge.example();
     }
 }
