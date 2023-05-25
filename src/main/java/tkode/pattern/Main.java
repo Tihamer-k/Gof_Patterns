@@ -1,5 +1,6 @@
 package tkode.pattern;
 
+import tkode.pattern.creational.abstract_factory.AbstractFactory;
 import tkode.pattern.creational.factory_method.FactoryMethod;
 import tkode.pattern.creational.singleton.Singleton;
 
@@ -10,5 +11,8 @@ public class Main {
         
         // Uso del patrón Factory method
         FactoryMethod.example();
+        
+        // Uso del patrón Abstract Factory
+        AbstractFactory.example();
     }
 }
