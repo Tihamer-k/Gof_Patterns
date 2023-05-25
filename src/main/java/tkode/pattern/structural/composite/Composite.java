@@ -2,6 +2,7 @@ package tkode.pattern.structural.composite;
 
 public class Composite {
     public static void example() {
+        System.out.println("\nComposite Pattern:\n");
         // Crear hojas
         InstrumentComponent guitar = new InstrumentLeaf("Guitar");
         InstrumentComponent piano = new InstrumentLeaf("Piano");
