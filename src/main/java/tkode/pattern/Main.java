@@ -10,6 +10,7 @@ import tkode.pattern.structural.bridge.Bridge;
 import tkode.pattern.structural.composite.Composite;
 import tkode.pattern.structural.decorator.Decorator;
 import tkode.pattern.structural.facade.Facade;
+import tkode.pattern.structural.flyweight.Flyweight;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -42,5 +43,8 @@ public class Main {
 
         // Uso del patrón Facade
         Facade.example();
+
+        // Uso del patrón Flyweight
+        Flyweight.example();
     }
 }
