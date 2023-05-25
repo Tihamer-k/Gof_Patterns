@@ -13,10 +13,3 @@ método `play()` en cada instrumento.
 
 Este ejemplo muestra cómo el patrón **Builder** permite construir objetos complejos paso a paso, proporcionando una interfaz
 clara y flexible para configurar los atributos del objeto.
-
-
-
-
-
-
-Regenerate response
