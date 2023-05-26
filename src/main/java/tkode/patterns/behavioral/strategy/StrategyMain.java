@@ -4,11 +4,12 @@ public class StrategyMain {
     public static void example() {
         Context context = new Context();
 
-    context.setStrategy(new ConcreteStrategyAdd());
-    System.out.println(context.executeStrategy(5, 3));
+        // Establecer la estrategia de suma
+        context.setStrategy(new ConcreteStrategyAdd());
+        context.executeStrategy(5, 3);
 
-    context.setStrategy(new ConcreteStrategySubtract());
-    System.out.println(context.executeStrategy(5, 3));
+        // Cambiar la estrategia a resta
+        context.setStrategy(new ConcreteStrategySubtract());
+        context.executeStrategy(5, 3);
     }
-
 }

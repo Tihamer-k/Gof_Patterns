@@ -7,7 +7,7 @@ public class Context {
         this.strategy = strategy;
     }
 
-    public String executeStrategy(int num1, int num2) {
-        return strategy.executeStrategy(num1, num2);
+    public void executeStrategy(int num1, int num2) {
+        strategy.executeStrategy(num1, num2);
     }
 }
