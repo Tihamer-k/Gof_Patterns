@@ -1,0 +1,5 @@
+se utiliza para definir un esqueleto de algoritmo en la clase abstracta AbstractClass. El Template Method templateMethod() define la secuencia de pasos a seguir para realizar una operación, donde algunos pasos son comunes a todas las subclases y otros deben ser implementados por cada subclase concreta. Las subclases ConcreteClassA y ConcreteClassB extienden la clase AbstractClass y proporcionan implementaciones específicas para el método specificOperation(). El método hook() es un gancho opcional que puede ser sobrescrito por las subclases según sea necesario.
+
+Al ejecutar el programa, el Template Method se invoca en cada objeto de subclase, siguiendo la secuencia de pasos definida en el Template Method. La implementación específica de specificOperation() en cada subclase se ejecuta y el gancho hook() también puede ser utilizado si está implementado en la subclase correspondiente.
+
+El resultado de la ejecución mostrará cómo el Template Method permite definir un esqueleto de algoritmo en una clase abstracta y delegar la implementación de pasos específicos a las subclases concretas.

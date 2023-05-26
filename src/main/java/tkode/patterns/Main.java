@@ -1,10 +1,22 @@
 package tkode.patterns;
 
+
+import tkode.patterns.behavioral.Visitor.*;
 import tkode.patterns.behavioral.chain_of_responsibility.ChainOfResponsibility;
 import tkode.patterns.behavioral.command.Command;
 import tkode.patterns.behavioral.interpreter.Interpreter;
 import tkode.patterns.behavioral.iterator.Iterator;
 import tkode.patterns.behavioral.mediator.Mediator;
+import tkode.patterns.behavioral.memento.Caretaker;
+import tkode.patterns.behavioral.memento.MementoMain;
+import tkode.patterns.behavioral.memento.Originator;
+import tkode.patterns.behavioral.observer.*;
+import tkode.patterns.behavioral.state.ContextState;
+import tkode.patterns.behavioral.state.StateMain;
+import tkode.patterns.behavioral.template_method.AbstractClass;
+import tkode.patterns.behavioral.template_method.ConcreteClassA;
+import tkode.patterns.behavioral.template_method.ConcreteClassB;
+import tkode.patterns.behavioral.template_method.TempleteMethod;
 import tkode.patterns.creational.abstract_factory.AbstractFactory;
 import tkode.patterns.creational.builder.Builder;
 import tkode.patterns.creational.factory_method.FactoryMethod;
@@ -17,6 +29,7 @@ import tkode.patterns.structural.decorator.Decorator;
 import tkode.patterns.structural.facade.Facade;
 import tkode.patterns.structural.flyweight.Flyweight;
 import tkode.patterns.structural.proxy.Proxy;
+
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -70,5 +83,21 @@ public class Main {
         
         //Uso del patrón Mediator
         Mediator.example();
+
+        // Uso del patrón Memento
+        MementoMain.example();
+
+        // Uso del patrón Observer
+        ObserverMain.example();
+
+        //Uso el patrón State
+        StateMain.example();
+
+        //Uso el patrón Template Method
+        TempleteMethod.example();
+
+        //Uso el patrón Visitor
+        VisitorMain.example();
+
     }
 }
