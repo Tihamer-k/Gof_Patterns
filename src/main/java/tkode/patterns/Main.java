@@ -4,6 +4,7 @@ import tkode.patterns.behavioral.chain_of_responsibility.ChainOfResponsibility;
 import tkode.patterns.behavioral.command.Command;
 import tkode.patterns.behavioral.interpreter.Interpreter;
 import tkode.patterns.behavioral.iterator.Iterator;
+import tkode.patterns.behavioral.mediator.Mediator;
 import tkode.patterns.creational.abstract_factory.AbstractFactory;
 import tkode.patterns.creational.builder.Builder;
 import tkode.patterns.creational.factory_method.FactoryMethod;
@@ -66,5 +67,8 @@ public class Main {
 
         // Uso del patrón Iterator
         Iterator.example();
+        
+        //Uso del patrón Mediator
+        Mediator.example();
     }
 }
