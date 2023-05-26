@@ -2,6 +2,7 @@ package tkode.patterns;
 
 import tkode.patterns.behavioral.chain_of_responsibility.ChainOfResponsibility;
 import tkode.patterns.behavioral.command.Command;
+import tkode.patterns.behavioral.interpreter.Interpreter;
 import tkode.patterns.creational.abstract_factory.AbstractFactory;
 import tkode.patterns.creational.builder.Builder;
 import tkode.patterns.creational.factory_method.FactoryMethod;
@@ -58,5 +59,8 @@ public class Main {
 
         // Uso del patrón Command
         Command.example();
+
+        // Uso del patrón Interpreter
+        Interpreter.example();
     }
 }
